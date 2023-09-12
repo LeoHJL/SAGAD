@@ -1,0 +1,72 @@
+body {
+    font-family: "Segoe IU", sans-serif;
+    background: #FFFFFF;
+}
+
+td {
+    background: #EAEAEA;
+    text-align: center;
+}
+
+th {
+    background: #006699;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+
+
+a:link,
+a:visited {
+    color: white;
+    width: 50px;
+    padding: auto;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+a:hover,
+a:active {
+    background-color: lightblue;
+    border-radius: 10px;
+    width: 50px;
+}
+
+form {
+    flex-direction: row;
+    width: 100%;
+    background: #EAEAEA;
+}
+
+.form-row {
+    display: flex;
+    justify-content: center;
+    padding: .5em;
+}
+
+form.sidebar {
+    background: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5em;
+}
+
+form.historial {
+    width: 50%;
+    background: #EAEAEA;
+    padding: 30px;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+table.historial {
+    width: 80%;
+    background: #EAEAEA;
+    padding: 30px;
+    margin: auto;
+    border-radius: 10px;
+}
