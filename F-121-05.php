@@ -6,7 +6,6 @@ $pdf->AddPage();
 $pdf->SetFont('Arial', '', 8);
 $pdf->SetWidths(array(34, 34, 34, 34, 34, 34, 34, 34));
 
-
 $pdf->bottom();
 
 $pdf->Output();

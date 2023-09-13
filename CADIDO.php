@@ -34,7 +34,6 @@ $conexion = mysqli_connect('localhost', 'root', '', 'sagad');
             <a href="HISTORIAL.php">
                 <img alt="CADIDO" src="img/historial.png" />
             </a>
-
         </form>
     </div>
 

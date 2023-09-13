@@ -36,6 +36,27 @@ class PDF_MC_Table extends FPDF
         $this->Ln(9);
     }
 
+    function extra(){
+        $this->image('img/blanco.jpg', 9, 35, 280, 11);
+        $this->SetFont('Arial', 'B', 5.5);
+        $this->SetX(10);
+        $this->SetWidths(array(278));
+        $this->row(array(utf8_decode('ABREVIATURAS')));
+        $this->SetFont('Arial', '', 5.5);
+        $this->SetX(10);
+        $this->SetWidths(array(139, 139));
+        $this->row(array(utf8_decode('S'), utf8_decode('Sección')));
+        $this->SetX(10);
+        $this->SetWidths(array(139, 139));
+        $this->row(array(utf8_decode('SE'), utf8_decode('Serie')));
+        $this->SetX(10);
+        $this->SetWidths(array(139, 139));
+        $this->row(array(utf8_decode('SU'), utf8_decode('Subserie')));
+        $this->SetX(10);
+        $this->SetWidths(array(139, 139));
+        $this->row(array(utf8_decode('SUB'), utf8_decode('Subsubserie')));
+    }
+
     function Footer()
     {
         // Posición: a 1,5 cm del final

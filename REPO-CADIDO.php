@@ -16,5 +16,8 @@ while ($row = $resultado->fetch_assoc()) {
     $pdf->Row(array($row['Seccion'], $row['Serie'], $row['SubSerie'], $row['SubSubSerie'], utf8_decode($row['Nombre_Seccion']), utf8_decode($row['Nombre_Serie']), utf8_decode($row['Nombre_Subserie']), utf8_decode($row['Nombre_SubSubSerie']), $row['Administrativo'], $row['JuridicoLegal'], $row['FiscalContable'], $row['Archivo_Tramite'], $row['Archivo_Concentracion'], $row['Total'], $row['Baja_Documental'], $row['Muestreo'], $row['Historico'], $row['Digitalizacion'], $row['Publico'], $row['Reservado'], $row['Confidencial']));
 }
 
+$pdf->AddPage();
+$pdf->extra();
+
 $pdf->Output();
 ?>
