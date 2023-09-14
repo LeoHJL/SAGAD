@@ -71,19 +71,19 @@ $conexion = mysqli_connect('localhost', 'root', '', 'sagad');
             ?>
             <form action="<?= $_SERVER['PHP_SELF'] ?>" method="post" class="edit">
                 <label>Seccion: </label><br>
-                <input type="text" name="Seccion" class="campo"><br>
+                <input type="number" name="Seccion" class="campo"><br>
                 <label>Nombre de sección:</label><br>
                 <input type="text" name="Nombre_Seccion" class="campo"><br>
                 <label>Serie: </label><br>
-                <input type="text" name="Serie" class="campo""><br>
+                <input type="number" name="Serie" class="campo""><br>
                 <label>Nombre de serie:</label><br>
                 <input type="text" name="Nombre_Serie" class="campo"><br>
                 <label>SubSerie: </label><br>
-                <input type="text" name="SubSerie" class="campo"><br>
+                <input type="number" name="SubSerie" class="campo"><br>
                 <label>Nombre de subserie:</label><br>
                 <input type="text" name="Nombre_Subserie" class="campo"><br>
                 <label>Subsubserie:</label><br>
-                <input type="text" name="SubSubSerie" class="campo"><br>
+                <input type="number" name="SubSubSerie" class="campo"><br>
                 <label>Nombre de subsubSerie:</label><br>
                 <input type="text" name="Nombre_SubSubSerie" class="campo"><br>
                 <label>Descripcion:</label><br>

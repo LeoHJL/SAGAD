@@ -138,31 +138,31 @@ $conexion = mysqli_connect('localhost', 'root', '', 'sagad');
                 <label>Nombre de subsubSerie:</label><br>
                 <input type="text" name="Nombre_SubSubSerie" class="campo" value="<?php echo $Nombre_SubSubSerie; ?>"><br>
                 <label>Administrativo:</label><br>
-                <input type="text" name="Administrativo" class="campo" value="<?php echo $Administrativo; ?>"><br>
+                <input type="text" name="Administrativo" class="campo" maxlength="1" value="<?php echo $Administrativo; ?>"><br>
                 <label>Juridico/Legal:</label><br>
-                <input type="text" name="JuridicoLegal" class="campo" value="<?php echo $JuridicoLegal; ?>"><br>
+                <input type="text" name="JuridicoLegal" class="campo" maxlength="1" value="<?php echo $JuridicoLegal; ?>"><br>
                 <label>Fiscal/Contable:</label><br>
-                <input type="text" name="FiscalContable" class="campo" value="<?php echo $FiscalContable; ?>"><br>
+                <input type="text" name="FiscalContable" class="campo" maxlength="1" value="<?php echo $FiscalContable; ?>"><br>
                 <label>Archivo de tramite:</label><br>
-                <input type="text" name="Archivo_Tramite" class="campo" value="<?php echo $Archivo_Tramite; ?>"><br>
+                <input type="number" name="Archivo_Tramite" class="campo" value="<?php echo $Archivo_Tramite; ?>"><br>
                 <label>Archivo de concentración</label><br>
-                <input type="text" name="Archivo_Concentracion" class="campo" value="<?php echo $Archivo_Concentracion; ?>"><br>
+                <input type="number" name="Archivo_Concentracion" class="campo" value="<?php echo $Archivo_Concentracion; ?>"><br>
                 <label>Total:</label><br>
-                <input type="text" name="Total" class="campo" value="<?php echo $Total; ?>"><br>
+                <input type="number" name="Total" class="campo" value="<?php echo $Total; ?>"><br>
                 <label>Baja documental: </label><br>
-                <input type="text" name="Baja_Documental" class="campo" value="<?php echo $Baja_Documental; ?>"><br>
+                <input type="text" name="Baja_Documental" class="campo" maxlength="1" value="<?php echo $Baja_Documental; ?>"><br>
                 <label>Muestreo: </label><br>
-                <input type="text" name="Muestreo" class="campo" value="<?php echo $Muestreo; ?>"><br>
+                <input type="text" name="Muestreo" class="campo" maxlength="1" value="<?php echo $Muestreo; ?>"><br>
                 <label>Historico: </label><br>
-                <input type="text" name="Historico" class="campo" value="<?php echo $Historico; ?>"><br>
+                <input type="text" name="Historico" class="campo" maxlength="1" value="<?php echo $Historico; ?>"><br>
                 <label>Digitalización: </label><br>
-                <input type="text" name="Digitalizacion" class="campo" value="<?php echo $Digitalizacion; ?>"><br>
+                <input type="text" name="Digitalizacion" class="campo" maxlength="1" value="<?php echo $Digitalizacion; ?>"><br>
                 <label>Publico: </label><br>
-                <input type="text" name="Publico" class="campo" value="<?php echo $Publico; ?>"><br>
+                <input type="text" name="Publico" class="campo" maxlength="1" value="<?php echo $Publico; ?>"><br>
                 <label>Reservado: </label><br>
-                <input type="text" name="Reservado" class="campo" value="<?php echo $Reservado; ?>"><br>
+                <input type="text" name="Reservado" class="campo" maxlength="1" value="<?php echo $Reservado; ?>"><br>
                 <label>Confidencial</label><br>
-                <input type="text" name="Confidencial" class="campo" value="<?php echo $Confidencial; ?>"><br>
+                <input type="text" name="Confidencial" class="campo" maxlength="1" value="<?php echo $Confidencial; ?>"><br>
                 <input type="hidden" name="ID_Codigo" value="<?php echo $ID_Codigo; ?>">
                 <input type="submit" name="enviar" class="boton" value="Actualizar registro">
         </form>

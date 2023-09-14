@@ -32,9 +32,9 @@ $conexion = mysqli_connect('localhost', 'root', '', 'sagad');
         </form>
     </div>
     <div>
+
         <?php
         if (isset($_POST['enviar'])) {
-
             $Seccion = $_POST['Seccion'];
             $Nombre_Seccion = $_POST['Nombre_Seccion'];
             $Serie = $_POST['Serie'];
@@ -83,47 +83,47 @@ $conexion = mysqli_connect('localhost', 'root', '', 'sagad');
             ?>
             <form action="<?= $_SERVER['PHP_SELF'] ?>" method="post" class="edit">
                 <label>Seccion: </label><br>
-                <input type="text" name="Seccion" class="campo"><br>
+                <input type="number" name="Seccion" class="campo"><br>
                 <label>Nombre de sección:</label><br>
                 <input type="text" name="Nombre_Seccion" class="campo"><br>
                 <label>Serie: </label><br>
-                <input type="text" name="Serie" class="campo""><br>
+                <input type="number" name="Serie" class="campo""><br>
                 <label>Nombre de serie:</label><br>
                 <input type="text" name="Nombre_Serie" class="campo"><br>
                 <label>SubSerie: </label><br>
-                <input type="text" name="SubSerie" class="campo"><br>
+                <input type="number" name="SubSerie" class="campo"><br>
                 <label>Nombre de subserie:</label><br>
                 <input type="text" name="Nombre_Subserie" class="campo"><br>
                 <label>Subsubserie:</label><br>
-                <input type="text" name="SubSubSerie" class="campo"><br>
+                <input type="number" name="SubSubSerie" class="campo"><br>
                 <label>Nombre de subsubSerie:</label><br>
                 <input type="text" name="Nombre_SubSubSerie" class="campo"><br>
                 <label>Administrativo:</label><br>
-                <input type="text" name="Administrativo" class="campo"><br>
+                <input type="text" name="Administrativo" class="campo" maxlength="1"><br>
                 <label>Juridico/Legal:</label><br>
-                <input type="text" name="JuridicoLegal" class="campo"><br>
+                <input type="text" name="JuridicoLegal" class="campo" maxlength="1"><br>
                 <label>Fiscal/Contable:</label><br>
-                <input type="text" name="FiscalContable" class="campo"><br>
+                <input type="text" name="FiscalContable" class="campo" maxlength="1"><br>
                 <label>Archivo de tramite:</label><br>
-                <input type="text" name="Archivo_Tramite" class="campo"><br>
+                <input type="number" name="Archivo_Tramite" class="campo"><br>
                 <label>Archivo de concentración</label><br>
-                <input type="text" name="Archivo_Concentracion" class="campo"><br>
+                <input type="number" name="Archivo_Concentracion" class="campo"><br>
                 <label>Total:</label><br>
-                <input type="text" name="Total" class="campo"><br>
+                <input type="number" name="Total" class="campo"><br>
                 <label>Baja documental: </label><br>
-                <input type="text" name="Baja_Documental" class="campo"><br>
+                <input type="text" name="Baja_Documental" class="campo" maxlength="1"><br>
                 <label>Muestreo: </label><br>
-                <input type="text" name="Muestreo" class="campo"><br>
+                <input type="text" name="Muestreo" class="campo" maxlength="1"><br>
                 <label>Historico: </label><br>
-                <input type="text" name="Historico" class="campo"><br>
+                <input type="text" name="Historico" class="campo" maxlength="1"><br>
                 <label>Digitalización: </label><br>
-                <input type="text" name="Digitalizacion" class="campo"><br>
+                <input type="text" name="Digitalizacion" class="campo" maxlength="1"><br>
                 <label>Publico: </label><br>
-                <input type="text" name="Publico" class="campo"><br>
+                <input type="text" name="Publico" class="campo" maxlength="1"><br>
                 <label>Reservado: </label><br>
-                <input type="text" name="Reservado" class="campo"><br>
+                <input type="text" name="Reservado" class="campo" maxlength="1"><br>
                 <label>Confidencial</label><br>
-                <input type="text" name="Confidencial" class="campo"><br>
+                <input type="text" name="Confidencial" class="campo" maxlength="1"><br>
                 <input type="submit" name="enviar" class="boton" value="Añadir registro">
         </form>
             <?php
