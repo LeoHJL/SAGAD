@@ -38,7 +38,11 @@ if (!isset($_SESSION['rol'])) {
     <div class="body-container">
         <div class="two-botton">
             <a href="NuevaCaja.html"><i class="fas fa-box"></i><button>Nueva Caja</button></a>
+            <a href="GenerarExp.html"><i class="fas fa-folder-plus"></i><button>Nuevo expediente</button></a>
+        </div>
+        <div class="two-botton">
             <a href="Consultar.html"><i class="fas fa-search"></i><button>Consulta de expediente</button></a>
+            <a href="ModificarExp.html"><i class="fas fa-pen-square"></i><button>Modificar expediente</button></a>
         </div>
         <div class="two-botton">
             <a href="index.php"><i class="fas fa-th-list"></i><button>Generar Inventario AT</button></a>

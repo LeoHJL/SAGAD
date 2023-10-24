@@ -15,5 +15,5 @@ require('../Historial/AGRE-HISTORIAL.php');
 
     Add_historial('Alejandra Cervantes Perez', 'CADIDO y CGCA', 'Elimino registro');
 
-    header("location:MENU.PHP");
+    header("location:../RAE/MENU.PHP");
 ?>

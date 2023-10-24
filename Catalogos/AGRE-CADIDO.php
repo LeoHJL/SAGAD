@@ -78,6 +78,7 @@ $conexion = mysqli_connect('localhost', 'root', '', 'sagad');
             $result = mysqli_query($conexion, $sql);
 
             Add_historial('Alejandra Cervantes Perez', 'CADIDO', 'Inserto nuevo registro');
+            header("location:CADIDO.PHP");
 
         } else {
             ?>

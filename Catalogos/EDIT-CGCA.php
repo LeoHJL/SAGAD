@@ -61,6 +61,7 @@ $conexion = mysqli_connect('localhost', 'root', '', 'sagad');
             $result = mysqli_query($conexion, $sql);
 
             Add_historial('Alejandra Cervantes Perez', 'CGCA', 'Edito registro');
+            header("location:CGCA.PHP");
 
         } else {
             $ID_Codigo = $_GET['ID_Codigo'];
