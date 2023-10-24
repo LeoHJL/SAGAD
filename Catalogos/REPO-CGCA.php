@@ -1,5 +1,5 @@
 <?php
-require('libreria/CGCA_table.php');
+require('../libreria/CGCA_table.php');
 
 $conexion=mysqli_connect('localhost','root','','sagad');
 $sql="SELECT C.Seccion, C.Nombre_Seccion, C.Serie, C.Nombre_Serie, C.SubSerie, C.Nombre_Subserie, C.SubSubSerie, C.Nombre_SubSubSerie, C.Descripcion FROM Codigo C";

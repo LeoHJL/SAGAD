@@ -6,8 +6,8 @@ class PDF_MC_Table extends FPDF
 
     function Header()
     {
-        $this->image('img/UAQ_escudo.png', 10, 10, 60);
-        $this->image('img/coordinacion.png', 260, 6, 35);
+        $this->image('../img/UAQ_escudo.png', 10, 10, 60);
+        $this->image('../img/coordinacion.png', 260, 6, 35);
 
         // Arial bold 15
         $this->SetFont('Arial', 'B', 12);
@@ -37,7 +37,7 @@ class PDF_MC_Table extends FPDF
     }
 
     function extra(){
-        $this->image('img/blanco.jpg', 9, 35, 280, 11);
+        $this->image('../img/blanco.jpg', 9, 35, 280, 11);
         $this->SetFont('Arial', 'B', 5.5);
         $this->SetX(10);
         $this->SetWidths(array(278));

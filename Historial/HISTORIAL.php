@@ -8,11 +8,11 @@ $conexion = mysqli_connect('localhost', 'root', '', 'sagad');
 
 <head>
     <title>Historial</title>
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
     <form class="sidebar">
-        <img src="img/UAQ_escudo.png" width="170" height="60" />
+        <img src="../img/UAQ_escudo.png" width="170" height="60" />
         <h3>Historial de cambios</h3>
-        <img src="img/coordinacion.png" width="150" height="120" />
+        <img src="../img/coordinacion.png" width="150" height="120" />
     </form>
 </head>
 
@@ -20,14 +20,14 @@ $conexion = mysqli_connect('localhost', 'root', '', 'sagad');
 
     <div>
         <form class="form-row">
-            <a href="CADIDO.php">
-                <img alt="CADIDO" src="img/reporte.png" height="32px" width="32px"/>
+            <a href="../Catalogos/CADIDO.php">
+                <img alt="CADIDO" src="../img/reporte.png" height="32px" width="32px"/>
             </a>
-            <a href="CGCA.php">
-                <img alt="CGCA" src="img/libro.png" height="32px" width="32px"/>
+            <a href="../Catalogos/CGCA.php">
+                <img alt="CGCA" src="../img/libro.png" height="32px" width="32px"/>
             </a>
-            <a href="MENU.php">
-                <img alt="CADIDO" src="img/home.png" />
+            <a href="../RAE/menu.php">
+                <img alt="CADIDO" src="../img/home.png" />
             </a>
         </form>
     </div>

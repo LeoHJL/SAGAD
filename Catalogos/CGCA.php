@@ -8,11 +8,11 @@ $conexion = mysqli_connect('localhost', 'root', '', 'sagad');
 
 <head>
     <title>CGCA</title>
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
     <form class="sidebar">
-        <img src="img/UAQ_escudo.png" width="170" height="60" />
+        <img src="../img/UAQ_escudo.png" width="170" height="60" />
         <h3>CUADRO GENERAL DE CLASIFICACIÓN ARCHIVÍSTICA CGCA - UAQ</h3>
-        <img src="img/coordinacion.png" width="150" height="120" />
+        <img src="../img/coordinacion.png" width="150" height="120" />
     </form>
 </head>
 
@@ -21,18 +21,18 @@ $conexion = mysqli_connect('localhost', 'root', '', 'sagad');
     <div>
         <form class="form-row" method="GET">
             <a href="REPO-CGCA.php" class="home">
-                <img alt="CGCA" src="img/pdf.png" />
+                <img alt="CGCA" src="../img/pdf.png" />
             </a>
             <a href="AGRE-CGCA.php">
-                <img alt="CGCA" src="img/anadir.png" />
+                <img alt="CGCA" src="../img/anadir.png" />
             </a>
-            <a href="MENU.php" class="home">
-                <img alt="CGCA" src="img/home.png" />
+            <a href="../RAE/menu.php" class="home">
+                <img alt="CGCA" src="../img/home.png" />
             </a>
             <input type="search" placeholder="Buscar" name="busqueda"> <br>
             <button type="submit" name="enviar"> <b>Buscar</b> </button>
-            <a href="HISTORIAL.php">
-                <img alt="CADIDO" src="img/historial.png" />
+            <a href="../Historial/HISTORIAL.php">
+                <img alt="CADIDO" src="../img/historial.png" />
             </a>
         </form>
     </div>
@@ -93,8 +93,8 @@ $conexion = mysqli_connect('localhost', 'root', '', 'sagad');
                     <?php echo $mostrar['Descripcion'] ?>
                 </td>
                 <td>
-                    <?php echo "<a href='EDIT-CGCA.php?ID_Codigo=" . $mostrar['ID_Codigo'] . "''><img src='img/editar.png'/></a>" ?>
-                    <?php echo "<a href='ELI.php?ID_Codigo=" . $mostrar['ID_Codigo'] . "''><img src='img/eliminar.png'/></a>" ?>
+                    <?php echo "<a href='EDIT-CGCA.php?ID_Codigo=" . $mostrar['ID_Codigo'] . "''><img src='../img/editar.png'/></a>" ?>
+                    <?php echo "<a href='ELI.php?ID_Codigo=" . $mostrar['ID_Codigo'] . "''><img src='../img/eliminar.png'/></a>" ?>
                 <td>
             </tr>
             <?php

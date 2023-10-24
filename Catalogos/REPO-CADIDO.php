@@ -1,5 +1,5 @@
 <?php
-require('libreria/CADIDO_table.php');
+require('../libreria/CADIDO_table.php');
 
 $conexion=mysqli_connect('localhost','root','','sagad');
 $sql="SELECT C.Seccion, C.Nombre_Seccion, C.Serie, C.Nombre_Serie, C.SubSerie, C.Nombre_Subserie, C.SubSubSerie, C.Nombre_SubSubSerie, V.Administrativo, V.JuridicoLegal, V.FiscalContable, 

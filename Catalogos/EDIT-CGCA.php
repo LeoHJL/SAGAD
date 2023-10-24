@@ -1,5 +1,5 @@
 <?php
-require('AGRE-HISTORIAL.php');
+require('../Historial/AGRE-HISTORIAL.php');
 $conexion = mysqli_connect('localhost', 'root', '', 'sagad');
 ?>
 
@@ -8,11 +8,11 @@ $conexion = mysqli_connect('localhost', 'root', '', 'sagad');
 
 <head>
     <title>Editar registro</title>
-    <link rel="stylesheet" type="text/css" href="css/edit_styles.css">
+    <link rel="stylesheet" type="text/css" href="../css/edit_styles.css">
     <form class="sidebar">
-        <img src="img/UAQ_escudo.png" width="170" height="60" />
+        <img src="../img/UAQ_escudo.png" width="170" height="60" />
         <h3>Editar registro de CGCA</h3>
-        <img src="img/coordinacion.png" width="150" height="120" />
+        <img src="../img/coordinacion.png" width="150" height="120" />
     </form>
 </head>
 
@@ -20,14 +20,14 @@ $conexion = mysqli_connect('localhost', 'root', '', 'sagad');
 
     <div>
         <form class="form-row">
-            <a href="CGCA.php" class="home">
-                <img alt="CGCA" src="img/libro.png" width="32" height="32" />
+            <a href="../Catalogos/CGCA.php" class="home">
+                <img alt="CGCA" src="../img/libro.png" width="32" height="32" />
             </a>
-            <a href="REPO-CADIDO.php" class="home">
-                <img alt="CADIDO" src="img/pdf.png" />
+            <a href="../Catalogos/REPO-CADIDO.php" class="home">
+                <img alt="CADIDO" src="../img/pdf.png" />
             </a>
-            <a href="MENU.php" class="home">
-                <img alt="CADIDO" src="img/home.png" />
+            <a href="../RAE/menu.php" class="home">
+                <img alt="CADIDO" src="../img/home.png" />
             </a>
         </form>
     </div>

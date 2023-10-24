@@ -6,8 +6,8 @@ class PDF_MC_Table extends FPDF
 
     function Header()
     {
-        $this->image('img/UAQ_escudo.png', 10, 10, 60);
-        $this->image('img/coordinacion.png', 260, 6, 35);
+        $this->image('../img/UAQ_escudo.png', 10, 10, 60);
+        $this->image('../img/coordinacion.png', 260, 6, 35);
 
         // Arial bold 15
         $this->SetFont('Arial', 'B', 12);
@@ -60,7 +60,7 @@ class PDF_MC_Table extends FPDF
 
     function extra()
     {
-        $this->image('img/blanco.jpg', 9, 35, 280, 11);
+        $this->image('../img/blanco.jpg', 9, 35, 280, 11);
         $this->SetFont('Arial', 'B', 5.5);
         $this->SetX(10);
         $this->SetWidths(array(139, 139));
@@ -126,11 +126,11 @@ class PDF_MC_Table extends FPDF
         $this->SetX(10);
         $this->SetWidths(array(92.66, 92.66, 92.66));
         $this->row(array(utf8_decode('Invitaciones, felicitaciones, trípticos'), utf8_decode('Muestreo'), utf8_decode('La Coordinación de Archivo Institucional realizará un muestreo previa eliminación, para valorar la pertinencia de invitaciones o felicitaciones que por su relevancia pudiera adquirir un valor relevante social o histórico')));
-        $this->image('img/blanco.jpg', 9, 32.5, 280, 11);
+        $this->image('../img/blanco.jpg', 9, 32.5, 280, 11.3);
    
         $this->SetFont('Arial', 'B', 5.5);
         $this->SetX(10);
-        $this->SetWidths(array(280));
+        $this->SetWidths(array(278));
         $this->row(array(utf8_decode('ABREVIATURAS')));
         $this->SetFont('Arial', '', 5.5);
         $this->SetX(10);

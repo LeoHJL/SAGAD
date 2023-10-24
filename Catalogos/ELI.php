@@ -1,5 +1,5 @@
 <?php
-require('AGRE-HISTORIAL.php');
+require('../Historial/AGRE-HISTORIAL.php');
 
     $conexion=mysqli_connect('localhost','root','','sagad');
     $ID_Codigo=$_GET['ID_Codigo'];
@@ -14,4 +14,6 @@ require('AGRE-HISTORIAL.php');
     $result=mysqli_query($conexion,$sql);
 
     Add_historial('Alejandra Cervantes Perez', 'CADIDO y CGCA', 'Elimino registro');
+
+    header("location:MENU.PHP");
 ?>
