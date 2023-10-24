@@ -3,7 +3,7 @@ session_start();
 if (!isset($_SESSION['rol'])) {
     header('location:../Sesion/index.php');
 } else {
-    if ($_SESSION['rol'] != 'RAE') {
+    if ($_SESSION['rol'] != 'RAC') {
         header('location:../Sesion/index.php');
     }
 }
@@ -33,21 +33,17 @@ if (!isset($_SESSION['rol'])) {
             COORDINACIÓN DE ARCHIVO INSITUCIONAL
         </a>
 
-        <a class="Menu" href="#home">Menu RAE</a>
+        <a class="Menu" href="#home">Menu RAC</a>
     </div>
 
     <div class="body-container">
         <div class="two-botton">
-            <a href="Areas.html"><i class="fas fa-th-list"></i><button>Añadir area productora</button></a>
-            <a href="Unidad.html"><i class="fas fa-boxes"></i><button>Añadir unidades administrativas</button></a>
+            <a href="Areas.html"><i class="fas fa-book-reader"></i><button>Inventario general</button></a>
+            <a href="Unidad.html"><i class="fas fa-boxes"></i><button>Inventario transferencia secundaria</button></a>
         </div>
         <div class="two-botton">
-            <a href="Registro.html"><i class="fas fa-clipboard-check"></i><button>Añadir nuevo usuario</button></a>
-            <a href="opciones.html"><i class="fas fa-print"></i><button>Imprimir Etiqueta</button></a>
-        </div>
-        <div class="two-botton">
-            <a href="../Catalogos/CADIDO.php"><i><img src="../img/reporte.png" width="32" height="32"></i><button>CADIDO</button></a>
-            <a href="../Catalogos/CGCA.php"><i><img src="../img/libro.png" width="32" height="32"></i><button>CGCA</button></a>
+            <a href="#"><i class="fas fa-book-dead"></i><button>Inventario baja documental</button></a>
+            <a href="#"><i class="fas fa-pallet"></i><button>Ubicacion en AC</button></a>
         </div>
         <div class="Simple-botton">
             <a href="../Sesion/index.php"><i class="fas fa-sign-out-alt"></i><button>Cerrar Sesión</button></a>

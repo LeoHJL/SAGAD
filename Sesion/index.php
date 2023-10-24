@@ -28,7 +28,12 @@ if (isset($_POST['email']) && isset($_POST['password'])) {
             case 'RAE':
                 header('location:../RAE/menu.php');
                 break;
-
+            case 'RAC':
+                header('location:../RAC/RAC-MENU.php');
+                break;
+            case 'RAH':
+                header('location:../RAH/RAH-MENU.php');
+                break;
             default:
         }
     }
