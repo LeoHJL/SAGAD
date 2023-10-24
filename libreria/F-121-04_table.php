@@ -19,7 +19,7 @@ class PDF_MC_Table extends FPDF
 
         $this->Cell(140, 10, '', 1, 2, 'C', 1);
         $this->SetFont('Arial', 'B', 20);
-        $this->image('img/UAQ_escudo.png', 40, 40, 60);
+        $this->image('../img/UAQ_escudo.png', 40, 40, 60);
         
 
     }

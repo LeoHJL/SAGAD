@@ -6,7 +6,7 @@ class PDF_MC_Table extends FPDF
 
     function Header()
     {
-        $this->image('img/uaq.jpg', 10, 10, 17);
+        $this->image('../img/uaq.jpg', 10, 10, 17);
 
         $this->Cell(25);
         $this->SetFont('Arial', '', 8);
@@ -23,7 +23,7 @@ class PDF_MC_Table extends FPDF
         $this->SetFont('Arial', 'B', 20);
         $this->SetX(11);
         $this->Cell(40, 40, 'FONDO', 1, 2, 'C', 1);
-        $this->image('img/UAQ_escudo.png', 90, 50, 60);
+        $this->image('../img/UAQ_escudo.png', 90, 50, 60);
 
     }
 

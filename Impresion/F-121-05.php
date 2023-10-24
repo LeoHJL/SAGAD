@@ -1,5 +1,5 @@
 <?php
-require('libreria/F-121-05_table.php');
+require('../libreria/F-121-05_table.php');
 
 $pdf = new PDF_MC_Table('L');
 $pdf->AddPage();
