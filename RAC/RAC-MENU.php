@@ -1,14 +1,3 @@
-<?php
-session_start();
-if (!isset($_SESSION['rol'])) {
-    header('location:../Sesion/index.php');
-} else {
-    if ($_SESSION['rol'] != 'RAC') {
-        header('location:../Sesion/index.php');
-    }
-}
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -38,15 +27,15 @@ if (!isset($_SESSION['rol'])) {
 
     <div class="body-container">
         <div class="two-botton">
-            <a href="Areas.html"><i class="fas fa-book-reader"></i><button>Inventario general</button></a>
-            <a href="Unidad.html"><i class="fas fa-boxes"></i><button>Inventario transferencia secundaria</button></a>
+            <a href="Areas.php"><i class="fas fa-book-reader"></i><button>Inventario general</button></a>
+            <a href="Unidad.php"><i class="fas fa-boxes"></i><button>Inventario transferencia secundaria</button></a>
         </div>
         <div class="two-botton">
             <a href="#"><i class="fas fa-book-dead"></i><button>Inventario baja documental</button></a>
             <a href="#"><i class="fas fa-pallet"></i><button>Ubicacion en AC</button></a>
         </div>
         <div class="Simple-botton">
-            <a href="../Sesion/index.php"><i class="fas fa-sign-out-alt"></i><button>Cerrar Sesión</button></a>
+            <a href="../Sesion/index.php"><i class="fas fa-sign-out-alt"><?php session_unset(); session_destroy();?></i><button>Cerrar Sesión</button></a>
         </div>
     </div>
 

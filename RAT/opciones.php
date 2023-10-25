@@ -1,14 +1,3 @@
-<?php
-session_start();
-if (!isset($_SESSION['rol'])) {
-    header('location:../Sesion/index.php');
-} else {
-    if ($_SESSION['rol'] != 'RAT') {
-        header('location:../Sesion/index.php');
-    }
-}
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -37,24 +26,27 @@ if (!isset($_SESSION['rol'])) {
 
     <div class="body-container">
         <div class="two-botton">
-            <a href="NuevaCaja.html"><i class="fas fa-box"></i><button>Nueva Caja</button></a>
-            <a href="GenerarExp.html"><i class="fas fa-folder-plus"></i><button>Nuevo expediente</button></a>
+            <a href="NuevaCaja.php"><i class="fas fa-box"></i><button>Nueva Caja</button></a>
+            <a href="GenerarExp.php"><i class="fas fa-folder-plus"></i><button>Nuevo expediente</button></a>
         </div>
         <div class="two-botton">
-            <a href="Consultar.html"><i class="fas fa-search"></i><button>Consulta de expediente</button></a>
-            <a href="ModificarExp.html"><i class="fas fa-pen-square"></i><button>Modificar expediente</button></a>
+            <a href="Consultar.php"><i class="fas fa-search"></i><button>Consulta de expediente</button></a>
+            <a href="ModificarExp.php"><i class="fas fa-pen-square"></i><button>Modificar expediente</button></a>
         </div>
         <div class="two-botton">
             <a href="index.php"><i class="fas fa-th-list"></i><button>Generar Inventario AT</button></a>
-            <a href="opciones.html"><i class="fas fa-boxes"></i><button>Generar Inventario TP</button></a>
+            <a href="opciones.php"><i class="fas fa-boxes"></i><button>Generar Inventario TP</button></a>
         </div>
         <div class="two-botton">
             <a href="index.php"><i class="fas fa-clipboard-check"></i><button>Caratula de Expediente</button></a>
-            <a href="opciones.html"><i class="fas fa-print"></i><button>Imprimir Etiqueta</button></a>
+            <a href="opciones.php"><i class="fas fa-print"></i><button>Imprimir Etiqueta</button></a>
         </div>
         <div class="two-botton">
             <a href="../Catalogos/REPO-CADIDO.php"><i><img src="../img/reporte.png" width="32" height="32"></i><button>CADIDO</button></a>
             <a href="../Catalogos/REPO-CGCA.php"><i><img src="../img/libro.png" width="32" height="32"></i><button>CGCA</button></a>
+        </div>
+        <div class="two-botton">
+            <a href="../Catalogos/Guia_simple.php"><i class="fas fa-mail-bulk"></i><button>Guía Simple de Archivos</button></a>
         </div>
         <div class="Simple-botton">
             <a href="../Sesion/index.php"><i class="fas fa-sign-out-alt"></i><button>Cerrar Sesión</button></a>
