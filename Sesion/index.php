@@ -23,16 +23,16 @@ if (isset($_POST['email']) && isset($_POST['password'])) {
         switch ($_SESSION['rol']) {
             case 'RAT':
                 echo($_SESSION['rol']);
-                header('location:../RAT/opciones.php');
+                header('location:../RAT/RAT-Menu.php');
                 break;
             case 'RAE':
-                header('location:../RAE/menu.php');
+                header('location:../RAE/RAE-Menu.php');
                 break;
             case 'RAC':
-                header('location:../RAC/RAC-MENU.php');
+                header('location:../RAC/RAC-Menu.php');
                 break;
             case 'RAH':
-                header('location:../RAH/RAH-MENU.php');
+                header('location:../RAH/RAH-Menu.php');
                 break;
             default:
         }

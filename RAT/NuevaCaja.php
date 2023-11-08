@@ -9,7 +9,6 @@
     <script src="https://kit.fontawesome.com/1da1a7b25b.js" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 </head>
-
 <body>
     <div class="header">
         <div class="header-img">
@@ -20,10 +19,7 @@
                 DIRECCIÓN DE SERVICIOS Y RECURSOS MATERIALES</b><br>
             COORDINACIÓN DE ARCHIVO INSITUCIONAL
         </a>
-
         <a class="Menu" href="#home">Nueva Caja</a>
-
-
     </div>
     <div class="body-container-caja">
         <div class="form-container">
@@ -61,22 +57,20 @@
         <div class="R-container">
             <div class="two-botton-opcion">
                 <a href="index.php"><i class="fas fa-search"></i><button>Consutar</button></a>
-                <a href="opciones.php"><i class="fas fa-sticky-note"></i><button>Generar<br>Caratula</button></a>
+                <a href="RAT-RAE-Menu.php"><i class="fas fa-sticky-note"></i><button>Generar<br>Caratula</button></a>
             </div>
             <div class="two-botton-opcion">
                 <a href="index.php"><i class="fas fa-save"></i><button>Guardar</button></a>
-                <a href="opciones.php"><i class="fas fa-box"></i><button>Nueva<br>Caja</button></a>
+                <a href="RAT-RAE-Menu.php"><i class="fas fa-box"></i><button>Nueva<br>Caja</button></a>
             </div>
             <div class="two-botton-opcion">
                 <a href="index.php"><i class="fas fa-edit"></i><button>Modificar</button></a>
-                <a href="opciones.php"><i class="fas fa-trash-alt"></i><button>Solicitar<br>eliminación</button></a>
+                <a href="RAT-RAE-Menu.php"><i class="fas fa-trash-alt"></i><button>Solicitar<br>eliminación</button></a>
             </div>
             <div class="Simple-botton-caja">
                 <a href="index.php"><i class="fas fa-sign-out-alt"></i><button>Cerrar<br>Sesión</button></a>
             </div>
         </div>
     </div>
-
 </body>
-
 </html>

@@ -26,7 +26,7 @@ $conexion = mysqli_connect('localhost', 'root', '', 'sagad');
             <a href="../Catalogos/CGCA.php">
                 <img alt="CGCA" src="../img/libro.png" height="32px" width="32px"/>
             </a>
-            <a href="../RAE/menu.php">
+            <a href="../RAE/RAE-Menu.php">
                 <img alt="CADIDO" src="../img/home.png" />
             </a>
         </form>

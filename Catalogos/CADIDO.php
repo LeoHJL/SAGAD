@@ -26,7 +26,7 @@ $conexion = mysqli_connect('localhost', 'root', '', 'sagad');
             <a href="AGRE-CADIDO.php">
                 <img alt="CADIDO" src="../img/anadir.png" />
             </a>
-            <a href="../RAE/menu.php">
+            <a href="../RAE/RAE-Menu.php">
                 <img alt="CADIDO" src="../img/home.png" />
             </a>
             <input type="search" placeholder="Buscar" name="busqueda">

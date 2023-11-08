@@ -32,14 +32,14 @@
         </div>
         <div class="two-botton">
             <a href="Registro.php"><i class="fas fa-clipboard-check"></i><button>Añadir nuevo usuario</button></a>
-            <a href="opciones.php"><i class="fas fa-print"></i><button>Imprimir Etiqueta</button></a>
+            <a href="../Catalogos/Guia_simple.php"><i class="fas fa-print"></i><button>Guía simple de archivos</button></a>
         </div>
         <div class="two-botton">
             <a href="../Catalogos/CADIDO.php"><i><img src="../img/reporte.png" width="32" height="32"></i><button>CADIDO</button></a>
             <a href="../Catalogos/CGCA.php"><i><img src="../img/libro.png" width="32" height="32"></i><button>CGCA</button></a>
         </div>
         <div class="Simple-botton">
-            <a href="../Sesion/index.php"><i class="fas fa-sign-out-alt"><?php session_unset(); session_destroy();?></i><button>Cerrar Sesión</button></a>
+            <a href="../Sesion/index.php"><i class="fas fa-sign-out-alt"></i><button>Cerrar Sesión</button></a>
         </div>
     </div>
 

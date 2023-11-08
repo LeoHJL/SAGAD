@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,7 +8,6 @@
     <script src="https://kit.fontawesome.com/1da1a7b25b.js" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 </head>
-
 <body>
     <div class="header">
         <div class="header-img">
@@ -20,10 +18,8 @@
                 DIRECCIÓN DE SERVICIOS Y RECURSOS MATERIALES</b><br>
             COORDINACIÓN DE ARCHIVO INSITUCIONAL
         </a>
-
         <a class="Menu" href="#home">Menu RAT</a>
     </div>
-
     <div class="body-container">
         <div class="two-botton">
             <a href="NuevaCaja.php"><i class="fas fa-box"></i><button>Nueva Caja</button></a>
@@ -35,18 +31,18 @@
         </div>
         <div class="two-botton">
             <a href="index.php"><i class="fas fa-th-list"></i><button>Generar Inventario AT</button></a>
-            <a href="opciones.php"><i class="fas fa-boxes"></i><button>Generar Inventario TP</button></a>
+            <a href="RAT-RAE-Menu.php"><i class="fas fa-boxes"></i><button>Generar Inventario TP</button></a>
         </div>
         <div class="two-botton">
             <a href="index.php"><i class="fas fa-clipboard-check"></i><button>Caratula de Expediente</button></a>
-            <a href="opciones.php"><i class="fas fa-print"></i><button>Imprimir Etiqueta</button></a>
+            <a href="RAT-RAE-Menu.php"><i class="fas fa-print"></i><button>Imprimir Etiqueta</button></a>
         </div>
         <div class="two-botton">
             <a href="../Catalogos/REPO-CADIDO.php"><i><img src="../img/reporte.png" width="32" height="32"></i><button>CADIDO</button></a>
             <a href="../Catalogos/REPO-CGCA.php"><i><img src="../img/libro.png" width="32" height="32"></i><button>CGCA</button></a>
         </div>
         <div class="two-botton">
-            <a href="../Catalogos/Guia_simple.php"><i class="fas fa-mail-bulk"></i><button>Guía Simple de Archivos</button></a>
+            <a href="../Catalogos/Guia_simple.php"><i class="fas fa-mail-bulk"></i><button>Guía simple de archivos</button></a>
         </div>
         <div class="Simple-botton">
             <a href="../Sesion/index.php"><i class="fas fa-sign-out-alt"></i><button>Cerrar Sesión</button></a>

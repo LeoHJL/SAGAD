@@ -31,7 +31,7 @@
             <a href="#"><i class="fas fa-folder"></i><button>Inventario Historico</button></a>
         </div>
         <div class="Simple-botton">
-            <a href="../Sesion/index.php"><i class="fas fa-sign-out-alt"><?php session_unset(); session_destroy();?></i><button>Cerrar Sesión</button></a>
+            <a href="../Sesion/index.php"><i class="fas fa-sign-out-alt"></i><button>Cerrar Sesión</button></a>
         </div>
     </div>
 
