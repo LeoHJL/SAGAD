@@ -15,10 +15,10 @@
     <div class="header-img">
       <img src="../img/Escudo_UAQ_BLANCO.png" alt="UAQ LOGO">
     </div>
-    <a href="#default" class="logo">UNIVERSIDAD AUTÓNOMA DE QUERETARO<br>
-      <b>SECRETARIA ADMINISTRATIVA<br>
+    <a href="#default" class="logo">UNIVERSIDAD AUTÓNOMA DE QUERÉTARO<br>
+      <b>SECRETARÍA ADMINISTRATIVA<br>
         DIRECCIÓN DE SERVICIOS Y RECURSOS MATERIALES</b><br>
-      COORDINACIÓN DE ARCHIVO INSITUCIONAL
+      COORDINACIÓN DE ARCHIVO INSTITUCIONAL
     </a>
   </div>
 
@@ -29,7 +29,7 @@
           <th rowspan="2">Cvo</th>
           <th rowspan="2">Nombre De Expediente</th>
           <th rowspan="2">Codigo De Clasificación</th>
-          <th rowspan="2">Ubicacion</th>
+          <th rowspan="2">Ubicación</th>
           <th colspan="2">Fecha</th>
           <th rowspan="2">AT</th>
           <th rowspan="2">Caja</th>
@@ -45,7 +45,7 @@
           <td>0</td>
           <td>Sin Expediente</td>
           <td>Sin Codigo de Clasificación</td>
-          <td>Sin Ubicacion</td>
+          <td>Sin Ubicación</td>
           <td>1/1/2020</td>
           <td>1/1/2020</td>
           <td>1</td>

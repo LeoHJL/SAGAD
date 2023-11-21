@@ -16,10 +16,10 @@
     <div class="header-img">
       <img src="../img/Escudo_UAQ_BLANCO.png" alt="UAQ LOGO">
     </div>
-    <a href="#default" class="logo">UNIVERSIDAD AUTÓNOMA DE QUERETARO<br>
-      <b>SECRETARIA ADMINISTRATIVA<br>
+    <a href="#default" class="logo">UNIVERSIDAD AUTÓNOMA DE QUERÉTARO<br>
+      <b>SECRETARÍA ADMINISTRATIVA<br>
         DIRECCIÓN DE SERVICIOS Y RECURSOS MATERIALES</b><br>
-      COORDINACIÓN DE ARCHIVO INSITUCIONAL
+      COORDINACIÓN DE ARCHIVO INSTITUCIONAL
     </a>
   </div>
   <div class="body-container">

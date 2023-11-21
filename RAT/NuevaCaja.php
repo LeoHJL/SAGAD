@@ -14,10 +14,10 @@
         <div class="header-img">
             <img src="../img/Logo_de_la_UAQ_black.png" alt="UAQ LOGO">
         </div>
-        <a href="#default" class="logo">UNIVERSIDAD AUTÓNOMA DE QUERETARO<br>
-            <b>SECRETARIA ADMINISTRATIVA<br>
+        <a href="#default" class="logo">UNIVERSIDAD AUTÓNOMA DE QUERÉTARO<br>
+            <b>SECRETARÍA ADMINISTRATIVA<br>
                 DIRECCIÓN DE SERVICIOS Y RECURSOS MATERIALES</b><br>
-            COORDINACIÓN DE ARCHIVO INSITUCIONAL
+            COORDINACIÓN DE ARCHIVO INSTITUCIONAL
         </a>
         <a class="Menu" href="#home">Nueva Caja</a>
     </div>
@@ -45,7 +45,7 @@
                     <span>SubSubserie:</span><input type="text" name="Subserie" placeholder="Subserie" required>
                 </div>
                 <div class="input-form">
-                    <span>Ubicacion:</span><input type="text" name="Ubicacion" placeholder="Ubicacion" required>
+                    <span>Ubicación:</span><input type="text" name="Ubicación" placeholder="Ubicación" required>
                 </div>
                 <div class="input-form">
                     <span>Apertura:</span><input type="date" name="Apertura" placeholder="Apertura" required>
@@ -57,7 +57,7 @@
         <div class="R-container">
             <div class="two-botton-opcion">
                 <a href="index.php"><i class="fas fa-search"></i><button>Consutar</button></a>
-                <a href="RAT-RAE-Menu.php"><i class="fas fa-sticky-note"></i><button>Generar<br>Caratula</button></a>
+                <a href="RAT-RAE-Menu.php"><i class="fas fa-sticky-note"></i><button>Generar<br>Carátula</button></a>
             </div>
             <div class="two-botton-opcion">
                 <a href="index.php"><i class="fas fa-save"></i><button>Guardar</button></a>

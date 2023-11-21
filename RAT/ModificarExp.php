@@ -15,10 +15,10 @@
     <div class="header-img">
       <img src="../img/Escudo_UAQ_BLANCO.png" alt="UAQ LOGO">
     </div>
-    <a href="#default" class="logo">UNIVERSIDAD AUTÓNOMA DE QUERETARO<br>
-      <b>SECRETARIA ADMINISTRATIVA<br>
+    <a href="#default" class="logo">UNIVERSIDAD AUTÓNOMA DE QUERÉTARO<br>
+      <b>SECRETARÍA ADMINISTRATIVA<br>
         DIRECCIÓN DE SERVICIOS Y RECURSOS MATERIALES</b><br>
-      COORDINACIÓN DE ARCHIVO INSITUCIONAL
+      COORDINACIÓN DE ARCHIVO INSTITUCIONAL
     </a>
   </div>
 
@@ -104,15 +104,15 @@
                   </select>
                 </div>
               </div>
-              <!-- input Ubicacion -->
+              <!-- input Ubicación -->
               <div class="field padding-bottom--24">
                 <div class="grid--50-50">
-                  <label for="password">Ubicacion</label>
+                  <label for="password">Ubicación</label>
                 </div>
                 <div class="form-icon">
                   <i class="fas fa-map-marker-alt"></i>
                   <!-- Autocompletado -->
-                  <input type="text" name="Ubicacion" id="Ubicacion">
+                  <input type="text" name="Ubicación" id="Ubicación">
                 </div>
               </div>
               <!-- input Fecha de apertura -->
@@ -169,9 +169,9 @@
       <div class="Simple-botton" id="HModificar">
         <a href=""><i class="fas fa-edit"></i><button>Modificar</button></a>
       </div>
-      <!-- bbton generar caratula -->
-      <div class="Simple-botton" id="HCaratula">
-        <a href=""><i class="fas fa-print"></i></i><button>Generar Caratula</button></a>
+      <!-- bbton generar Carátula -->
+      <div class="Simple-botton" id="HCarátula">
+        <a href=""><i class="fas fa-print"></i></i><button>Generar Carátula</button></a>
       </div>
       <!-- botton solicitar eliminacion -->
       <div class="Simple-botton" id="HSolicitud">
@@ -183,7 +183,7 @@
       </div>
       <!-- botton cerra secion -->
       <div class="Simple-botton" id="HCerrar">
-        <a href=""><i class="fas fa-sign-out-alt"></i><button>Cerrar Sesión</button></a>
+        <a href=""><i class="fas fa-sign-out-alt"></i><button>Cerrar sesión</button></a>
       </div>
     </div>
   </div>

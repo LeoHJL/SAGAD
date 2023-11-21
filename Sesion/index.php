@@ -57,10 +57,10 @@ if (isset($_POST['email']) && isset($_POST['password'])) {
         <div class="header-img">
             <img src="../img/Escudo_UAQ_BLANCO.png" alt="UAQ LOGO">
         </div>
-        <a href="#default" class="logo">UNIVERSIDAD AUTÓNOMA DE QUERETARO<br>
-            <b>SECRETARIA ADMINISTRATIVA<br>
+        <a href="#default" class="logo">UNIVERSIDAD AUTÓNOMA DE QUERÉTARO<br>
+            <b>SECRETARÍA ADMINISTRATIVA<br>
                 DIRECCIÓN DE SERVICIOS Y RECURSOS MATERIALES</b><br>
-            COORDINACIÓN DE ARCHIVO INSITUCIONAL
+            COORDINACIÓN DE ARCHIVO INSTITUCIONAL
         </a>
     </div>
 
@@ -82,12 +82,12 @@ if (isset($_POST['email']) && isset($_POST['password'])) {
                             <div class="box-root padding-top--24 flex-flex flex-direction--column" style="flex-grow: 1; z-index: 9;">
 
                             </div>
-                            <span class="padding-bottom--15">Inicio de sesion</span>
+                            <span class="padding-bottom--15">Inicio de sesión</span>
                             <form method="POST" action="">
                                 <div class="field padding-bottom--24">
                                     <label for="email">Nombre de usuario</label>
                                     <div class="form-icon">
-                                        <i class="fa fa-user fa-lg fa-fw"></i>
+                                        <i class="fas fa-user-alt"></i>
                                         <input type="email" name="email" id="email">
                                     </div>
                                 </div>
@@ -95,7 +95,7 @@ if (isset($_POST['email']) && isset($_POST['password'])) {
                                     <div class="grid--50-50">
                                         <label for="password">Contraseña</label>
                                         <div class="reset-pass">
-                                            <a href="#">Olvidaste la contraseña?</a>
+                                            <a href="#">¿Olvidaste la contraseña?</a>
                                         </div>
                                     </div>
                                     <div class="form-icon">
@@ -106,7 +106,7 @@ if (isset($_POST['email']) && isset($_POST['password'])) {
                                 <div class="field field-checkbox padding-bottom--24 flex-flex align-center">
                                 </div>
                                 <div class="field padding-bottom--24">
-                                    <input name="iniciar" type="submit" id="btn-primary" class="btn-primary" value="Iniciar sesion">
+                                    <input name="iniciar" type="submit" id="btn-primary" class="btn-primary" value="Iniciar sesión">
                                 </div>
                             </form>
                         </div>
